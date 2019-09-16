@@ -3,6 +3,9 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+#4coder editor project files
+*.4coder
+
 # User-specific files
 *.suo
 *.user
