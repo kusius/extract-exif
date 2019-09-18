@@ -10,10 +10,10 @@ Comes with a windows visual studio 2019 solution that can be used to compile and
 Alternatively: 
 cl -nologo  -D_CRT_SECURE_NO_WARNINGS -FC -Zi  path\to\extract-exif.cpp path\to\exif.cpp
 
-# Compilation Linux 
+## Compilation Linux 
 compile extract-exif.cpp and exif.cpp....
 
-#Compilation with C++ Experimental
+## Compilation with C++ Experimental
 use compiler flag CPP_EXPERIMENTAL and compile extract-exif.cpp and exif.cpp
 
 ## Usage
@@ -27,9 +27,6 @@ C++ Experimental: extract-exif [folder]
 	*folder*: a string that specifies the (relative/absolute) path to a folder.
 	All files in that folder will be processed. If some  of them are not jpeg files, they are ignored.
 		   
-
-(not yet implemented)
-demo.cpp and exif.cpp are easyexif example code programs.
 
 ## Sample data 
 The sample data folder "test-images" is taken from the easyexif repository.
