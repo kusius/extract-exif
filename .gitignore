@@ -5,6 +5,8 @@
 
 #4coder editor project files
 *.4coder
+build/
+build.bat
 
 # User-specific files
 *.suo
